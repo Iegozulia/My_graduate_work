@@ -1,0 +1,113 @@
+@font-face {
+    font-family:"IBM Plex Sans SemiBold" ;
+    src: url("../fonts/BRLNSDB.TTF");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"IBM Plex Sans SemiBold" ;
+}
+/* header */
+header{
+    height: 100vh;
+    background-image: url(../img/Wallpaper\ porthole\ airplane\ window\ airplane\ flight\ airplane\ wing\ sky\ -\ Wallpapers\ HD.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: #D2E9FB;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img, nav img{
+    width: 27%;
+}
+.logo{
+    padding-top: 2em;
+    text-align: center;
+}
+header h2{
+    font-size: 4em;
+    font-weight: bold;
+    color: #bee6f0;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 1em;
+    font-family:"IBM Plex Sans SemiBold" ;
+    padding: 1em;
+    color: #5C666E;
+}
+nav a.active{
+    background-color:#D2E9FB;
+
+}
+/* Заявки на homepage */
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2em 0;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+main a{
+    text-decoration: none;
+    font-size: 2em;
+    font-family:"IBM Plex Sans SemiBold" ;
+    padding: 1em;
+    color: #A18A67;
+
+}
+main h3{
+    text-rendering: geometricPrecision;
+    font-size: 1.2em;
+    font-family:"IBM Plex Sans SemiBold" ;
+    padding: 0.5em;
+    color: #A18A67;
+}
+.application{
+    margin: auto;
+    text-align: center;
+   
+}
+
+.application img{
+    width: 70%;
+}
+.ctg{
+    background-color: #F0F8FF;
+    border-radius: 0.25em;
+    padding:  2px;
+}
+/* footer */
+footer{
+    height: 200px;
+    background-color: #D2E9FB;
+}
+/* my tickets */
+table{
+    width: 50%;
+    margin: auto;
+}
+/* sing up button */
+/* .text-btn{
+    text-rendering: geometricPrecision;
+    font-size: 1.2em;
+    font-family:"IBM Plex Sans SemiBold" ;
+    padding: 0.5em;
+    color: #A18A67;
+} */
+/* sing up form  */
+.singup_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
